@@ -1,0 +1,11 @@
+# Lean build log — regenerable via: bash scripts/lean_check.sh
+# toolchain : leanprover/lean4:v4.29.1
+# mathlib   : v4.29.1 (formal/lakefile.lean)
+# date (UTC): 2026-05-31T07:31:02Z
+# command   : (cd formal && lake build Uav)
+---
+Build completed successfully (8257 jobs).
+---
+guard: sorry/admit declarations = 0
+guard: axiom declarations       = 0
+trace: see outputs/reports/lean_trace_check.md (30 #check items, all pass)

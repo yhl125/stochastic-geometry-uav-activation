@@ -1,0 +1,13 @@
+[project]
+name = "stochastic-geometry-uav-activation"
+version = "0.1.0"
+description = "Reproduction of Selim 2025 (Sci. Rep. 15:37356) UAV probabilistic-activation figures, with a Lean-assisted formula audit layer."
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "scipy>=1.11",
+]
+
+[tool.uv]
+package = false
